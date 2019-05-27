@@ -14,3 +14,10 @@ let ratio_printer fmt v =
 let num_printer fmt v =
   Format.fprintf fmt "<num %s>" (Num.string_of_num v)
 
+
+let printers = [
+  "nat_printer";
+  "big_int_printer";
+  "ratio_printer";
+  "num_printer";
+]

@@ -48,7 +48,7 @@ let failure_test test_number fun_to_test arg =
 let failwith_test test_number fun_to_test arg correct_failure =
  flush_all ();
  try
-   fun_to_test arg;
+   fun_to_test arg |> ignore;
    fprintf stderr ">>> Failure expected (%s, test %d)\n"
                   !function_tested test_number;
    error ()

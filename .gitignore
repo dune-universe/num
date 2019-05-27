@@ -11,3 +11,5 @@
 src/META
 test/test.byt
 test/test.exe
+*.install
+*.merlin
