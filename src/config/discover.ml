@@ -1,7 +1,7 @@
 module C = Configurator.V1
 
 let () =
-  C.main ~name:"zarith" (fun c ->
+  C.main ~name:"num" (fun c ->
     let arch =
       let arch =  C.ocaml_config_var_exn c "architecture"
       in
