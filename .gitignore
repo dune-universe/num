@@ -1,15 +1,3 @@
-*.o
-*.a
-*.so
-*.obj
-*.lib
-*.dll
-*.cm[ioxat]
-*.cmx[as]
-*.cmti
-*.annot
-src/META
-test/test.byt
-test/test.exe
 *.install
 *.merlin
+_build
